@@ -7,5 +7,5 @@ def sum_square_difference(number)
     i += 1 
   end
   sum_of_squares = squares ** 2
-  
+  sum_of_squares - squares
 end
