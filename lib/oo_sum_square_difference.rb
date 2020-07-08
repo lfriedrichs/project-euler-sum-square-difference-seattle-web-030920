@@ -5,7 +5,7 @@ class SumSquareDifference
     @number = number 
   end 
   
-  def sum_square_difference 
+  def difference 
     squares = []
     sum_of_squares = 0
     i = 1
