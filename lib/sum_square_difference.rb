@@ -6,6 +6,6 @@ def sum_square_difference(number)
     squares << i ** 2 
     i += 1 
   end
-  sum_of_squares = squares ** 2
-  sum_of_squares - squares
+  sum_of_squares = squares.sum ** 2
+  sum_of_squares - squares.sum
 end
